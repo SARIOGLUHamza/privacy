@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gizlilik Sözleşmesi — [Lifemo]</title>
+  <meta name="description" content="[Lifemo] gizlilik sözleşmesi ve sağlık verilerinin işlenmesi." />
+  <style>
+    :root{--fg:#0e1116;--muted:#5b6574;--bg:#ffffff;--card:#f6f8fa;--accent:#0ea5e9}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}
+    .container{max-width:900px;margin:0 auto;padding:40px 20px}
+    header{margin-bottom:24px}
+    h1{font-size:28px;margin:0 0 12px 0}
+    .updated{color:var(--muted)}
+    section{background:var(--card);border:1px solid #e5e7eb;border-radius:12px;padding:20px;margin:16px 0}
+    h2{font-size:20px;margin:0 0 12px 0}
+    ul{padding-left:20px}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    footer{margin-top:24px;color:var(--muted);font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📜 Gizlilik Sözleşmesi (Privacy Policy)</h1>
+      <div class="updated">Son Güncelleme Tarihi: [GG/AA/YYYY]</div>
+    </header>
+
+    <section>
+      <p>Bu gizlilik sözleşmesi, [Lifemo] (“Uygulama”) tarafından sağlanan hizmetleri kullanan kullanıcıların (“Kullanıcı”) kişisel sağlık verilerinin toplanması, kullanılması, saklanması ve korunmasına ilişkin esasları açıklar.</p>
+    </section>
+
+    <section>
+      <h2>1. Toplanan Veriler</h2>
+      <p>Uygulama, kullanıcının girdiği veya cihazındaki sağlık uygulamalarından (Health Connect vb.) paylaştığı aşağıdaki verileri toplayabilir:</p>
+      <ul>
+        <li>İlaç bilgileri (ilaç adı, dozaj, kullanım zamanı, tekrar sıklığı)</li>
+        <li>Ağırlık bilgisi</li>
+        <li>Nabız (kalp atış hızı)</li>
+        <li>Kan şekeri</li>
+        <li>Tansiyon (sistolik / diyastolik)</li>
+        <li>Su tüketimi</li>
+        <li>İlaç kullanım işaretlemeleri (aldım/atladım)</li>
+        <li>Hatırlatma için seçilen gün ve saat bilgileri</li>
+      </ul>
+      <p><strong>Not:</strong> Uygulama kullanıcıdan ad, soyad, adres, telefon numarası gibi kişisel kimlik bilgileri toplamaz.</p>
+    </section>
+
+    <section>
+      <h2>2. Verilerin Kullanım Amacı</h2>
+      <ul>
+        <li>Kullanıcının sağlık verilerini düzenli takip etmesini sağlamak</li>
+        <li>İlaç ve sağlık verileri için hatırlatma bildirimleri göndermek</li>
+        <li>Kullanıcının geçmiş sağlık kayıtlarını görüntüleyebilmesi</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Verilerin Saklanması</h2>
+      <ul>
+        <li>Veriler kullanıcının cihazında yerel olarak saklanır (ör. Hive, SQLite).</li>
+        <li>Kullanıcının isteği olmadan üçüncü taraflarla paylaşılmaz.</li>
+        <li>Kullanıcı uygulamayı kaldırdığında tüm veriler cihazdan silinir.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Üçüncü Taraf Hizmetleri</h2>
+      <ul>
+        <li>Health Connect / Google Fit / Apple Health (kullanıcı izin verirse veriler bu kaynaklardan okunur veya bu kaynaklara yazılır).</li>
+        <li>Bildirim servisleri (örn. flutter_local_notifications) yalnızca hatırlatma göndermek için kullanılır.</li>
+      </ul>
+      <p>Bu hizmetler yalnızca uygulamanın çalışmasını sağlamak için kullanılır, kullanıcı izni olmadan ek veri toplamaz.</p>
+    </section>
+
+    <section>
+      <h2>5. Kullanıcının Hakları</h2>
+      <ul>
+        <li>Tüm sağlık verilerini uygulama içinden görüntüleme</li>
+        <li>İstedikleri zaman verilerini tamamen silme</li>
+        <li>Uygulamayı kaldırarak tüm kayıtlarını kalıcı olarak silme</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. Güvenlik</h2>
+      <ul>
+        <li>Uygulama, sağlık verilerinin gizliliğini korumak için cihaz içi güvenlik yöntemlerini kullanır.</li>
+        <li>Veriler internete gönderilmez.</li>
+        <li>Verilerin güvenliği büyük ölçüde cihaz güvenliği ile bağlantılıdır.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>7. Değişiklikler</h2>
+      <p>Bu sözleşme gerektiğinde güncellenebilir. Güncellemeler uygulama içerisinde veya yayınlandığı platformda duyurulur.</p>
+    </section>
+
+    <section>
+      <h2>8. İletişim</h2>
+      <p>Bu gizlilik sözleşmesiyle ilgili sorularınız için bizimle iletişime geçebilirsiniz: <a href="mailto:[İletişim E-posta]">[hamzasarioglu4@gmail.com]</a></p>
+    </section>
+
+    <footer>
+      <p>© [Lifemo]. Tüm hakları saklıdır.</p>
+    </footer>
+  </div>
+</body>
+</html>
